@@ -6,7 +6,7 @@ public class Lab013_PrintAllVariables {
         byte a = 4;
         short b = 5;
         int c = 6;
-        long d = 10L;
+        long d = 10_00_000L;
         float f = 10.1f;
         double deci = 10.12345566;
         char ch = 'A';
