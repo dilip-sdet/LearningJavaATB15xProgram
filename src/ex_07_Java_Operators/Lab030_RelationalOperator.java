@@ -13,7 +13,8 @@ public class Lab030_RelationalOperator {
 
         int a = 10;
         int b = 20;
-        System.out.println(a < b);
+        boolean b1 = a < b;
+        System.out.println(b1);
         System.out.println(a == b);
         System.out.println(a > b);
         System.out.println(a >= b);
