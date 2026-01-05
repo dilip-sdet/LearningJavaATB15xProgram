@@ -14,5 +14,6 @@ public class Lab064_ElseIf1 {
         }else{
             System.out.println("You are Adult");
         }
+        sc.close();
     }
 }

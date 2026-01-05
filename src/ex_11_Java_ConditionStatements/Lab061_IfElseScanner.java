@@ -12,5 +12,6 @@ public class Lab061_IfElseScanner {
         }else {
             System.out.println("You cannot vote");
         }
+        sc.close();
     }
 }
