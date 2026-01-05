@@ -14,7 +14,7 @@ public class Lab065_TriangularClassifier {
         int c = sc.nextInt();
         if(a==b && b==c && c==a){
             System.out.println("ACUTE TRIANGLE");
-        }else if(a==b && (c!=a || c!=b)){
+        }else if(a==b || a==c || b==c){
             System.out.println("ISOSCELES TRIANGLE");
         }else{
             System.out.println(("SCALENE TRIANGLE"));
