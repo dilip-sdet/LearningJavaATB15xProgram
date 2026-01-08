@@ -2,7 +2,7 @@ package ex_12_Java_SwitchStatement;
 
 public class Lab075_SwitchStatementInterview7 {
     public static void main(String[] args) {
-        char c = 67;
+        int c = 67;
         switch (c) {
             default: {
                 System.out.println("Invalid ASSCI matching");

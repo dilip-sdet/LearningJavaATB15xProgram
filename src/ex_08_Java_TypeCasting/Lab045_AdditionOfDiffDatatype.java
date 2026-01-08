@@ -13,7 +13,7 @@ public class Lab045_AdditionOfDiffDatatype {
         System.out.println(c); //Always use bigger basket, when we adding smaller and bigger basket
 
         int ch = 500;
-        char cha = (char)ch;
+        char cha = (char) ch;
         System.out.println(cha);
 
     }
