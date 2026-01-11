@@ -4,6 +4,18 @@ import java.util.Scanner;
 
 public class Lab101_functiontype {
 
+    static int readValueOfScanner(Scanner sc, String prompt){
+        System.out.print(prompt);
+        if(sc.hasNextInt()) {
+            return sc.nextInt();
+        }
+        else{
+            System.out.println("Enter integer only");
+            System.exit(0);
+            return 0;
+        }
+    }
+
     //no parameters with no return type
     static void hello(){
         System.out.println("hello");
@@ -31,10 +43,8 @@ public class Lab101_functiontype {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter value of a: ");
-        int a = sc.nextInt();
-        System.out.println("Enter value of b: ");
-        int b = sc.nextInt();
+        int a = readValueOfScanner(sc, "Enter the valure of a: ");
+        int b = readValueOfScanner(sc, "Enter the valure of b: ");
         hello();
         System.out.println(sum());
         sumof2(a,b);
